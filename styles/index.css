@@ -1,0 +1,59 @@
+
+/* ------ DIV HOME ------*/
+
+.div-title-text h1{
+  font-size: 50px;
+}
+
+
+.div-title-text h3{
+  font-size: 20px;
+}
+
+
+.div-container-home {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-color-100);
+}
+
+/*------ ICONS ------*/
+
+.div-btn-social{
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.div-btn-social a img{
+  width: 50px;
+
+}
+
+
+@media(max-width: 730px) {
+  .div-container-home {
+    flex-direction: column;
+  }
+  
+  .div-img img {
+    width: 100%;
+  }
+
+  .div-btn-social a img {
+    width: 45px;
+  }
+
+  .div-title-text h1 {
+    font-size: 30px;
+}
+
+.div-title-text h3 {
+    font-size: 20px;
+}
+
+
+}

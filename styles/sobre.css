@@ -1,0 +1,63 @@
+/*------ GERAL ------*/
+body {
+background-color: var(--bg-color-100);
+}
+
+.container-sobre {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content-sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-sobre {
+    width: 600px;
+}
+
+.text-sobre h1 {
+    color: var(--color-800);
+    font-size: 38px;
+    font-weight: bold;
+
+}
+
+.text-sobre p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(58, 57, 57);
+    background-color: var(--color-300);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.img-sobre {
+    width: 500px;
+}
+
+
+@media (max-width: 900px) {
+
+    .content-sobre {
+        flex-direction: column;
+        padding: 20px;
+    } 
+
+    .img-sobre {
+        width: 100%;
+    }
+
+    .img-sobre img{
+        width: 100%;
+    }
+
+    .text-sobre {
+        width: auto;
+    }
+
+}

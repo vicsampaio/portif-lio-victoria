@@ -1,0 +1,51 @@
+/* ----- GERAL -----*/
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    gap: 30px;
+
+}
+
+.content-skills h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: var(--color-800);
+}
+
+.content-skills h4 {
+    padding: 50px;
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgb(58, 57, 57);
+}   
+
+.content-skills i {
+    font-size: 100px;
+
+}
+
+.icons-aprendendo {
+    display: flex;
+    justify-content: center ;
+    gap: 50px;
+}
+
+
+@media (max-width: 540px) {
+    .content-skills h4 {
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .content-skills i {
+        font-size: 70px;
+    }
+
+     .content-skills h1 {
+        font-size: 50px;
+    } 
+
+}

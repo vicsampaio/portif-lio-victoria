@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../styles/global.css">
+    <link rel="stylesheet" href="./../styles/contato.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Contato</title>
+</head>
+<body>
+    <!--- Menu navegação --->
+    <nav class="container-navegacao">
+        <img src="./../assets/logo.png" />
+  
+        <div class="navegacao">
+            <a href="./../index.html">Inicio</a>
+          <a href="./../pages/sobre.html">Sobre</a>
+          <a href="./../pages/projetos.html">Projetos</a>
+          <a href="./../pages/skills.html">Skills</a>
+          <a href="./../pages/contato.html">Contato</a>
+        </div>
+        <i class="ph-bold ph-list" id="menu"></i>
+      </nav>
+
+    <!--- formulario --->
+    
+        <div class="container-contato">
+            <div class="content-contato">
+                <h1>Contato</h1>
+                <h3>mensagem de contato</h3>
+
+                <form action="https://formsubmit.co/victoria-sampaio01@hotmail.com" method="POST" class="content-form">
+                    <div class="div-form"> 
+                        <label for="primeiroNome">Primeiro nome</label>
+                        <input id="primeiroNome" name="name" type="text" required>
+                    </div>
+                    
+                    <div class="div-form">
+                        <label for="assunto">Assunto</label>
+                        <input id="assunto" name="_subject"required>
+                    </div>
+
+                    <div class="div-form">
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+
+                    <div class="div-form">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" type="text" name="message" required></textarea>
+                    </div>
+
+                    <div>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thanks.html">
+                    </div>
+
+                    <div class="btn-container">
+                    <button type ="submit" class="btn-form">Enviar e-mail</button>
+                </div>
+                </form>
+            </div>
+        </div>
+        <script src="./../scripts/menu.js"></script>
+    </body>
+</html>

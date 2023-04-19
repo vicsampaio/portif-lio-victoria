@@ -1,0 +1,94 @@
+/* ------ COLORS ------*/
+
+:root {
+    --bg-color-100: #ede9fe; 
+    --color-300: #c4b5fd;
+    --color-400: #a78bfa; 
+    --color-800: #5b21b6;
+   
+}
+
+/* ------ GERAL ------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color-100);
+}
+
+
+
+/* ------ MENU NAVEGAÇÃO ------*/
+
+.container-navegacao {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-color-100);
+    align-items: center;
+    position: relative;
+}
+
+.container-navegacao .navegacao {
+    font-size: 18px;
+    display: flex;
+    gap: 30px;
+    color: var(--color-800);
+}
+
+.container-navegacao a {
+    text-decoration: none;
+}
+
+.container-navegacao img {
+    width: 200px;
+}
+
+.container-navegacao a:hover {
+    color:var(--color-400);
+}
+
+/* ------ ICONES ------*/
+
+.div-btn-social a {
+    text-decoration: none;
+}
+
+#menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--color-800);
+    margin-top: 20px;
+}
+
+/*
+
+*/
+
+@media (max-width: 530px) {
+    .container-navegacao .navegacao {
+        display: none;
+    } 
+    #menu {
+        display: flex;
+        position: absolute;
+        right: 5px;
+        top: 20px;
+    }
+    .container-navegacao {
+        flex-direction: column;
+    }
+
+}

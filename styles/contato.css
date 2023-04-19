@@ -1,0 +1,132 @@
+/*------ GERAL ------*/
+.container-contato {
+    display: flex;
+    justify-content: center;
+}
+
+.content-contato {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.content-contato h1, h3{
+    color: var(--color-800);
+    text-align: center;
+}
+
+.content-contato h3{
+    font-weight: lighter;
+    color: lightslategray;
+}
+
+/*------ FORMULARIO ------*/
+
+
+.content-form {
+    margin-top: 30px;
+    background-color: white;
+}
+
+.div-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+}
+
+.div-form input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--color-300);
+}
+
+.div-form  textarea,input:focus{
+    outline: 1px solid var(--color-400);
+}
+
+.div-form label {
+    color: var(--color-800);
+    font-size: 14px;
+    padding: 3px;
+}
+
+/*------ BOTÃO E EMAIL ------*/
+
+#mensagem {
+    height: 60px;
+    border: 1px solid var(--color-300);
+    resize: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.btn-form {
+    background-color: var(--color-800 );
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn-form:hover {
+    background-color: var(--color-400);
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* ------ PAG THANKS ------*/
+.imagem-pageTks {
+    width: 500px;
+}
+
+.container-tks{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content-tks{
+    margin-top: 80px;
+    border-radius: 12px;
+    text-align: justify;
+    height: 50px;
+}
+
+.content-tks h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(58, 57, 57);
+
+}
+
+.content-tks h3 {
+    font-size: 30px;
+}
+
+@media (max-width: 900px) {
+    .container-tks{
+        flex-direction: column;
+        padding: 20px;
+    } 
+
+
+    .imagem-pageTks{
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .imagem-pageTks img {
+        width: 100%;
+    }
+
+}
