@@ -39,10 +39,10 @@ const projetos = [
     id: 4,
     name: "Pokedex",
     desc: "enciclopédia virtual que detém todas as espécies de pokémon feito com JS.",
-    imageProject: "https://raw.githubusercontent.com/vicsampaio/Pokedex-/main/assets/pag.png", 
+    imageProject: "https://raw.githubusercontent.com/vicsampaio/Pokedex/main/assets/pag.png", 
     github: "https://github.com/vicsampaio/Pokedex-",
     modal: [
-      {img1: "https://raw.githubusercontent.com/vicsampaio/Pokedex-/main/assets/pag.png"},
+      {img1: "https://raw.githubusercontent.com/vicsampaio/Pokedex/main/assets/pag.png"},
       ]
     }
 ]
