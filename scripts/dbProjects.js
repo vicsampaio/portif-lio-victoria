@@ -44,5 +44,16 @@ const projetos = [
     modal: [
       {img1: "https://raw.githubusercontent.com/vicsampaio/Pokedex/main/assets/pag.png"},
       ]
-    }
+    },
+
+    {
+      id: 5,
+      name: "Calcular IMC",
+      desc: "Calculadora de índice de massa corporal.",
+      imageProject: "https://raw.githubusercontent.com/vicsampaio/CalcularIMC/master/assets/IMC-inicial.png", 
+      github: "https://github.com/vicsampaio/CalcularIMC",
+      modal: [
+        {img1: "https://raw.githubusercontent.com/vicsampaio/CalcularIMC/master/assets/IMC-inicial.png"},
+        ]
+      }
 ]
