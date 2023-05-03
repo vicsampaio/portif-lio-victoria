@@ -17,9 +17,11 @@
 
 .content-skills h4 {
     padding: 50px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 30px;
     color: rgb(58, 57, 57);
+    padding: 10px;
+    border-top: 0.3px solid #d490fc;;
 }   
 
 .content-skills i {
@@ -30,7 +32,12 @@
 .icons-aprendendo {
     display: flex;
     justify-content: center ;
-    gap: 50px;
+    gap: 20px;
+}
+
+.footer {
+    padding: 5px;
+    border-top: 0.1px solid #d490fc;
 }
 
 
@@ -38,6 +45,8 @@
     .content-skills h4 {
         margin-top: 20px;
         padding: 30px;
+        padding: 5px;
+        border-top: 0.1px solid #d490fc;
     }
 
     .content-skills i {
@@ -48,4 +57,22 @@
         font-size: 50px;
     } 
 
+}
+
+@media (max-width: 500px) {
+    .content-skills h1 {
+        font-size: 40px;
+    }
+    .content-skills h4 {
+        font-size: 20px;
+        padding: 5px;
+        border-top: 0.1px solid #d490fc;
+    
+    }
+
+    .content-skills i {
+        font-size: 70px;
+        display: flex;
+        flex-direction: column;
+    }
 }
