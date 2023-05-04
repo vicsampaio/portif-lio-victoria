@@ -2,11 +2,14 @@
 
 .container-skills {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    padding: 30px;
+    padding: 0 30px;
     gap: 30px;
-
+    flex-direction: column;
+    min-height: calc(100vh - 73px);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .content-skills h1 {
@@ -33,11 +36,6 @@
     display: flex;
     justify-content: center ;
     gap: 20px;
-}
-
-.footer {
-    padding: 5px;
-    border-top: 0.1px solid #d490fc;
 }
 
 
