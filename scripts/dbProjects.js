@@ -1,7 +1,7 @@
 const projetos = [
   {
     id: 1,
-    name: "Landing page sobre inteligencia artificial",
+    name: "Landing page sobre IA",
     desc: "Landing page sobre um prestador de serviços utilizando inteligência artificial",
     imageProject: "https://raw.githubusercontent.com/vicsampaio/Landing-page/master/assets/prints/index.png", 
     github: "https://github.com/vicsampaio/Landing-page", 
@@ -28,7 +28,7 @@ const projetos = [
   id: 3,
   name: "Gerador QR Code",
   desc: "Gerador de QR Code utilizando api",
-  imageProject: "https://raw.githubusercontent.com/vicsampaio/QR-Code-generator/main/QRCodeGenerator/assets/pag-qrcode.png", 
+  imageProject: "https://raw.githubusercontent.com/vicsampaio/QR-Code-generator/main/QRCodeGenerator/assets/pag-qrcode.png",   
   github: "https://github.com/vicsampaio/QR-Code-generator",
   modal: [
     {img1: "https://raw.githubusercontent.com/vicsampaio/QR-Code-generator/main/QRCodeGenerator/assets/pagina-inicial.png"},
@@ -40,7 +40,7 @@ const projetos = [
     name: "Pokedex",
     desc: "enciclopédia virtual que detém todas as espécies de pokémon feito com JS.",
     imageProject: "https://raw.githubusercontent.com/vicsampaio/Pokedex/main/assets/pag.png", 
-    github: "https://github.com/vicsampaio/Pokedex-",
+    github: "https://github.com/vicsampaio/Pokedex",
     modal: [
       {img1: "https://raw.githubusercontent.com/vicsampaio/Pokedex/main/assets/pag.png"},
       ]

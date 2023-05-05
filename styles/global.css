@@ -5,9 +5,7 @@
     --color-300: #c4b5fd;
     --color-400: #a78bfa; 
     --color-800: #5b21b6;
-   
 }
-
 /* ------ GERAL ------*/
 
 * {
@@ -20,8 +18,6 @@ body{
     background-color: var(--bg-color-100);
 }
 
-
-
 /* ------ MENU NAVEGAÇÃO ------*/
 
 .container-navegacao {
@@ -32,6 +28,7 @@ body{
     background-color: var(--bg-color-100);
     align-items: center;
     position: relative;
+      
 }
 
 .container-navegacao .navegacao {
@@ -71,6 +68,16 @@ body{
     gap: 30px;
     color: var(--color-800);
     margin-top: 20px;
+}
+
+.footer {
+    padding: 5px;
+    border-top: 0.1px solid #d490fc;
+    height: 50px;
+    font-size: 20px;
+    color: lightslategray;
+    display: flex;
+    justify-content: center;
 }
 
 /*

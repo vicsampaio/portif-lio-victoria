@@ -1,3 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 73px);
+}
+
 .container-project {
   max-width: 1300px;
   min-height: calc(100vh - 150px);
@@ -6,6 +12,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 20px;
+  margin-bottom: 2rem;
 }
 
 .content-project {
@@ -14,14 +21,14 @@
   flex-direction: column;
   border-radius: 20px 20px 8px 8px;
   background-color: var(--color-300);
-  height: 340px;
-  
+  height: 325px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.content-project img {
+.content-project .img {
   border-radius: 20px 20px 0 0;
   width: 300px;
-  height: 200px;
+  min-height: 160px;
   object-fit: cover;
 }
 
@@ -30,11 +37,26 @@
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  padding: 8px;
+  padding: 12px 0;
 }
 
 .content-project p {
-  padding: 0 8px;
+  padding: 0 18px;
+}
+
+.content-project img {
+  width: 30px;
+}
+
+.content-project a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.content-project .title {
+  height: 100%;
 }
 
 .projetos {
